@@ -1,0 +1,193 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+body {
+    background-color: rgb(205, 231, 255);
+    color: black;
+}
+a {
+    text-decoration: none;
+    color: inherit;
+    transform: scale(1);
+    transition: ease-in-out 100ms;
+}
+a:hover {
+    transform: scale(1.2);
+}
+button {
+    border-radius: 5px;
+    padding: 10px;
+    font-size: 15px;
+    color: white;
+}
+p {
+    padding: 5px;
+}
+
+
+
+nav {
+    height:4em;
+    width: 100%;
+    overflow: auto;
+    /* background-color: rgba(0, 0, 0, 0.800); */
+    background: rgb(37,29,171);
+    background: linear-gradient(90deg, rgba(37,29,171,1) 0%, rgba(74,74,176,1) 46%, rgba(44,191,220,1) 100%);
+
+    position: fixed;
+    top: 0;
+    left: 0;
+
+    display: flex;
+    justify-content: center;
+    text-align: center;
+
+    z-index: 99;
+}
+#navbar-elements {
+    height: auto;
+    width: auto;
+    color: white;
+    margin: 20px;
+}
+
+
+
+
+/* page1 => about, skills
+page2 => projects
+page3 => education, MSX */
+
+#page1-main {
+    text-align: center;
+    padding: 80px 0px 80px 0px;
+    margin: 10px;
+}
+#aboutImage {
+    height: 240px;
+    border-radius: 50%;
+}
+#page1-main-text {
+    width: 35%;
+    text-align: start;
+    margin: 10px;
+    padding: 10px;
+    display: inline-block;
+}
+#page1-main-media {
+    width: 35%;
+    text-align: center;
+    margin: 10px;
+    padding: 10px;
+    display: inline-block;
+}
+
+
+
+
+#techLogo {
+    height: 80px;
+    width: auto;
+    padding: 5px;
+}
+
+
+
+
+#projects {
+    padding: 80px 0px 80px 0px;
+    margin: 10px;
+    justify-content: center;
+    text-align: center;
+}
+#projectCard {
+    height: auto;
+    width: 25em;
+    max-height: 40em;
+    max-width: auto;
+
+    background-color: rgb(205, 231, 255);
+
+    border: 3px solid rgb(59, 97, 186);
+    border-radius: 15px;
+    box-shadow:7px 7px 7px rgb(59, 97, 186); 
+
+    margin: 10px;
+    padding: 10px;
+    display: inline-block;
+
+    transform: scale(1);
+    transition: ease-in-out 100ms;
+}
+#projectCard:hover {
+    transform: scale(0.95);
+}
+#upperCard {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding: 30px 30px 0px 30px;
+}
+#lowerCard {
+    padding: 0px 30px 30px 30px;
+}
+#liveButton {
+    background-color: rgb(42, 94, 236);
+}
+#githubButton {
+    background-color: rgb(64, 63, 63);
+}
+
+
+#achievements {
+    padding: 80px 0px 80px 0px;
+    text-align: start;
+    margin: 10px;
+
+    justify-content: center;
+    text-align: center;
+}
+#achievementsBlock {
+    height: auto;
+    width: 25em;
+    max-width: auto;
+    background-color: rgb(173, 173, 173);
+    border-radius: 5px;
+
+    display: inline-flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+    padding: 10px;
+    margin: 10px;
+}
+#achievementsBlock > h4 {
+    color: #505050;
+    text-align: end;
+}
+#listItems {
+    margin-left: 50px;
+}
+
+footer {
+    text-align: center;
+    width: 100%;
+
+    color: #fff;    
+    background-color: rgb(40, 40, 40);
+    padding: 80px 0px;
+    margin: 0px;
+}
+#contact-links-left, #contact-links-right {
+    display: inline-flex;
+    text-align: start;
+    flex-direction: column;
+    padding: 10px 50px 0px 50px;
+}
+#drwho {
+    position: fixed;
+    bottom: 0px;
+    right: 0px;
+}
