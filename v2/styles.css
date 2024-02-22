@@ -150,26 +150,23 @@ page3 => education, MSX */
     text-align: center;
 }
 #achievementsBlock {
-    height: auto;
-    width: 25em;
-    max-width: auto;
-    background-color: rgb(173, 173, 173);
-    border-radius: 5px;
-
-    display: inline-flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-
+    margin: 20px auto;
     padding: 10px;
-    margin: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+    max-width: 80%;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
-#achievementsBlock > h4 {
+#achievementsBlock h4 {
     color: #505050;
     text-align: end;
 }
 #listItems {
-    margin-left: 50px;
+    padding-left: 20px;
+    text-align: start;
 }
+
 
 footer {
     text-align: center;
