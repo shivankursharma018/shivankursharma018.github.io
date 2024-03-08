@@ -1,12 +1,13 @@
 * {
     padding: 0;
     margin: 0;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: Verdana;
 }
 body {
     background-color: rgb(205, 231, 255);
     color: black;
 }
+
 a {
     text-decoration: none;
     color: inherit;
@@ -28,6 +29,7 @@ p {
 
 
 
+
 nav {
     height:4em;
     width: 100%;
@@ -46,6 +48,16 @@ nav {
 
     z-index: 99;
 }
+
+/* #profile-image-navbar {
+    text-align: end;
+    height: 50px;
+    width: 50px;
+    margin: 10px;
+    border-radius: 50%;
+    display: inline-block;
+} */
+
 #navbar-elements {
     height: auto;
     width: auto;
@@ -98,7 +110,7 @@ page3 => education, MSX */
 
 #projects {
     padding: 80px 0px 80px 0px;
-    margin: 10px;
+    margin: 0px 40px;
     justify-content: center;
     text-align: center;
 }
@@ -132,6 +144,10 @@ page3 => education, MSX */
 }
 #lowerCard {
     padding: 0px 30px 30px 30px;
+    /* display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center; */
 }
 #liveButton {
     background-color: rgb(42, 94, 236);
@@ -139,6 +155,10 @@ page3 => education, MSX */
 #githubButton {
     background-color: rgb(64, 63, 63);
 }
+
+
+
+
 
 
 #achievements {
@@ -149,12 +169,18 @@ page3 => education, MSX */
     justify-content: center;
     text-align: center;
 }
+.achievementsCard {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
 #achievementsBlock {
     margin: 20px auto;
     padding: 10px;
     border: 1px solid #ddd;
     border-radius: 5px;
     background-color: #f9f9f9;
+    width: 45%;
     max-width: 80%;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
@@ -168,6 +194,8 @@ page3 => education, MSX */
 }
 
 
+
+
 footer {
     text-align: center;
     width: 100%;
@@ -175,7 +203,6 @@ footer {
     color: #fff;    
     background-color: rgb(40, 40, 40);
     padding: 80px 0px;
-    margin: 0px;
 }
 #contact-links-left, #contact-links-right {
     display: inline-flex;
