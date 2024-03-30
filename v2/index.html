@@ -5,70 +5,66 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <title>Shivankur Sharma</title>
-    <link rel="icon" href="rscs/profile1.png" type="image/x-icon">
-    <link rel="stylesheet" href="styles.css" type="text/css">
-
-    <style>
-        @media screen and (max-width: 768px) {
-            nav a {
-                margin-right: 10%;
-            }
-            #page1-main {
-                flex-direction: column;
-            }
-            #page1-main-text, #page1-main-media {
-                width: 100%;
-            }
-            #techLogo {
-                max-width: 60px;
-                margin: 5px;
-            }
-            #projects h1 {
-                text-align: center;
-            }
-            #projectCard {
-                flex-direction: column;
-            }
-            #lowerCard {
-                width: 90%;
-            }
-        }
-    </style>
+    <link rel="icon" type="image/svg+xml" sizes="any" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>👨‍💻</text></svg>"/>
+    <link rel="stylesheet" href="style.css" type="text/css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 
 </head>
-<body>
+<body class="dark">
 
     <nav>
-        <a id="navbar-elements" href="#" style="margin-right: 30%;">Shivankur Sharma</a>
-        <a id="navbar-elements" href="#page1-main">About</a>
-        <a id="navbar-elements" href="#projects">Projects</a>
-        <a id="navbar-elements" href="#achievements">Achievements</a>
-        <a id="navbar-elements" href="#footer">Contact Me</a>
+        <a class="navbar-elements" href="#" style="margin-right: 30%;">Shivankur Sharma</a>
+        <a class="navbar-elements" href="#page1-main">About</a>
+        <a class="navbar-elements" href="#projects">Projects</a>
+        <a class="navbar-elements" href="#achievements">Achievements</a>
+        <a class="navbar-elements" href="#footer">Contact Me</a>
+        <a class="navbar-elements" id="theme-toggle"><i class="fa-solid fa-circle-half-stroke"></i></a>
     </nav>
 
     
 
-    <div id="page1-main">
-        <div id="page1-main-text">
-            <p id="intro">
-                <h1>About Me</h1>
-                <br><br>
+    <div id="Home" style="color: #DEE4E7;">
+        <div id="home-left">
+            <img src="https://onedrive.live.com/embed?resid=8450EE5BC60C80C6%212472&authkey=%21AFmfR08LNlBqK30&width=2977&height=2973" alt="" height="45%">
+            <div class="home-left-txt">
                 <p>
-                    <u>Hello there! This is Shivankur Sharma.</u>
-                    <br><br>
-                    Welcome to my portfolio!
-                    I'm a college student passionate about web development. I'm proficient in <b>Python, C, MySQL, HTML, CSS</b>, and <b>JavaScript</b>. Alongside coding, I enjoy graphic design using <b>GIMP</b> and <b>Figma</b>.
+                    <p style="width: 100%;">Shivankur Sharma</p>
+                    <p style="font-size: 1rem;">(he/him)</p>
+                    <p style="width: 100%;">Frontend Dev | College Student</p>
                 </p>
-                <p>
-                    Eager to learn and create, I'm excited about the possibilities web development offers.
-                </p>
-            </p>
+            </div>
         </div>
-        <div id="page1-main-media">
-            <figure title="Shivankur Sharma">
-                <img id="aboutImage" src="rscs/profile2.jpg" alt="me2">
-                <figcaption>Shivankur Sharma <br> (he/him)</figcaption>
-            </figure>
+        <div id="home-right">
+            <p>Hello There! 👋</p>
+            <p>
+                <ul>
+                    <li>I am pursuing B.Tech CSE (DS & AI)</li>
+                    <li>
+                        Proficiency in:
+                        <ul>
+                            <li>Python</li>
+                            <li>MySQL</li>
+                            <li>Web Development (HTML, CSS, JS)</li>
+                            <li>ReactJS</li>
+                        </ul>
+                    </li>
+                    <li>Graphic designing enthusiast using GIMP & Figma</li>
+                </ul>
+            </p>
+            <p>
+                <a href="resume2.pdf" target="_blank">
+                    <button class="home-btns">Resume</button>
+                </a>
+                <a href="mailto:shivankursharma018@gmail.com">
+                    <button class="home-btns">Email Me</button>
+                </a>
+            </p>
+            <p>
+                <a href="https://www.github.com/shivankursharma018" target="_blank"><i class="fa-brands fa-square-github"></i></a>
+                <a href="https://www.linkedin.com/in/shivankursharma018" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+                <a href="https://www.youtube.com" target="_blank"><i class="fa-brands fa-square-youtube"></i></a>
+                <a href="https://www.x.com" target="_blank"><i class="fa-brands fa-square-x-twitter"></i></a>
+            </p>
         </div>
     </div>
 
@@ -76,14 +72,14 @@
 
     <div id="page1-main">
         <div id="page1-main-media">
-            <img id="techLogo" src="https://upload.wikimedia.org/wikipedia/commons/6/61/HTML5_logo_and_wordmark.svg" alt="html5">
-            <img id="techLogo" src="https://upload.wikimedia.org/wikipedia/commons/d/d5/CSS3_logo_and_wordmark.svg" alt="css3">
-            <img id="techLogo" src="https://upload.wikimedia.org/wikipedia/commons/6/6a/JavaScript-logo.png" alt="javascript">
-            <img id="techLogo" src="https://upload.wikimedia.org/wikipedia/commons/c/c3/Python-logo-notext.svg" alt="python">
-            <img id="techLogo" src="https://upload.wikimedia.org/wikipedia/commons/1/18/C_Programming_Language.svg" alt="c">
-            <img id="techLogo" src="https://upload.wikimedia.org/wikipedia/en/d/dd/MySQL_logo.svg" alt="MySQL">
-            <img id="techLogo" src="https://upload.wikimedia.org/wikipedia/commons/3/33/Figma-logo.svg" alt="figma">
-            <img id="techLogo" src="https://upload.wikimedia.org/wikipedia/commons/4/45/The_GIMP_icon_-_gnome.svg" alt="gimp">
+            <img class="techLogo" src="https://upload.wikimedia.org/wikipedia/commons/6/61/HTML5_logo_and_wordmark.svg" alt="html5">
+            <img class="techLogo" src="https://upload.wikimedia.org/wikipedia/commons/d/d5/CSS3_logo_and_wordmark.svg" alt="css3">
+            <img class="techLogo" src="https://upload.wikimedia.org/wikipedia/commons/6/6a/JavaScript-logo.png" alt="javascript">
+            <img class="techLogo" src="https://upload.wikimedia.org/wikipedia/commons/c/c3/Python-logo-notext.svg" alt="python">
+            <img class="techLogo" src="https://upload.wikimedia.org/wikipedia/commons/1/18/C_Programming_Language.svg" alt="c">
+            <img class="techLogo" src="https://upload.wikimedia.org/wikipedia/en/d/dd/MySQL_logo.svg" alt="MySQL">
+            <img class="techLogo" src="https://upload.wikimedia.org/wikipedia/commons/3/33/Figma-logo.svg" alt="figma">
+            <img class="techLogo" src="https://upload.wikimedia.org/wikipedia/commons/4/45/The_GIMP_icon_-_gnome.svg" alt="gimp">
         </div>
         <div id="page1-main-text">
             <h1>Skills</h1>
@@ -105,13 +101,15 @@
         <h1>Projects</h1>
         <br><br>
 
-        <div id="projectCard">
-            <div id="upperCard">
-                <video autoplay loop muted height="240" width="380" alt="Arduino-Workshop" title="Arduino">
+        <div class="projectCard">
+            <div class="upperCard">
+                <!-- <video autoplay loop muted height="250" width="450" alt="Arduino-Workshop" title="Arduino">
                     <source src="rscs/arduino.mp4" type="video/mp4">
-                </video>
+                </video> -->
+                <iframe src="https://onedrive.live.com/embed?resid=8450EE5BC60C80C6%212464&authkey=!AF7_d1pK7kMPaRg" width="480" height="250" frameborder="0" scrolling="no" allowfullscreen></iframe>
+
             </div>
-            <div id="lowerCard">
+            <div class="lowerCard">
                 <center>
                     <p>
                         <h3>Arduino</h3>
@@ -123,7 +121,7 @@
                     </p>
                     <p>
                         <a href="https://github.com/shivankursharma018/Arduino-Workshop/blob/main/README.md" target="_blank">
-                            <button id="githubButton">View on Github</button>
+                            <button class="githubButton">View on Github</button>
                         </a>
                     </p>
                 </center>
@@ -131,11 +129,11 @@
         </div>
 
 
-        <div id="projectCard">
-            <div id="upperCard">
-                <img loading="lazy" src="rscs/builds30figma.png" height="240" width="380" alt="SRM-Builds-3.0" title="SRM Builds 3.0">
+        <div class="projectCard">
+            <div class="upperCard">
+                <img loading="lazy" src="https://onedrive.live.com/embed?resid=8450EE5BC60C80C6%212463&authkey=%21AJOxcefMExMnhKY&width=1733&height=1221" height="250" width="450" alt="SRM-Builds-3.0" title="SRM Builds 3.0">
             </div>
-            <div id="lowerCard">
+            <div class="lowerCard">
                 <center>
                     <p>
                         <h3>SRM Builds 3.0</h3>
@@ -146,10 +144,10 @@
                     </p>
                     <p>
                         <a href="builds30.html" target="_blank">
-                            <button id="liveButton">View Live</button>
+                            <button class="liveButton">View Live</button>
                         </a>
                         <!-- <a href="#" target="_blank">
-                            <button id="githubButton">View on Github</button>
+                            <button class="githubButton">View on Github</button>
                         </a> -->
                     </p>
                 </center>
@@ -159,11 +157,11 @@
 
 
 
-        <div id="projectCard">
-            <div id="upperCard">
-                <img loading="lazy" src="rscs/amazon-clone.png" height="240" width="380" alt="amazon-clone" title="amazon-clone">
+        <div class="projectCard">
+            <div class="upperCard">
+                <img loading="lazy" src="https://onedrive.live.com/embed?resid=8450EE5BC60C80C6%212461&authkey=%21AGOgJigns4y1mQw&width=2848&height=1360" height="250" width="450" alt="amazon-clone" title="amazon-clone">
             </div>
-            <div id="lowerCard">
+            <div class="lowerCard">
                 <center>
                     <p>
                         <h3>Amazon UI Clone</h3>
@@ -176,10 +174,10 @@
                     </p>
                     <p>
                         <a href="https://shivankursharma018.github.io/Amazon-UI-Clone/" target="_blank">
-                            <button id="liveButton">View Live</button>
+                            <button class="liveButton">View Live</button>
                         </a>
                         <a href="https://github.com/shivankursharma018/Amazon-UI-Clone" target="_blank">
-                            <button id="githubButton">View on Github</button>
+                            <button class="githubButton">View on Github</button>
                         </a>
                     </p>
                 </center>
@@ -196,46 +194,24 @@
     <div id="achievements">
         <h1>Achievements</h1>
         <br><br>
-        <div class="achivementsCard">
-            <div id="achievementsBlock">
-                <h2>SRM University, Haryana</h2>
-                <br>
-                <h4>(2022-2026)</h4>
-                <ul id="listItems">
-                    <li>1st year CGPA : 7.4</li>
-                </ul>
-            </div>
-        </div>
 
         <div class="achivementsCard">
-            <div id="achievementsBlock">
+            <div class="achievementsBlock">
                 <h2>SRM University, Haryana</h2>
                 <br>
                 <h4>(2022-2023)</h4>
-                <ul id="listItems">
+                <ul class="listItems">
                     <li>SRM Builds 3.0 : 1st runner-up</li>
                 </ul>
             </div>
         </div>
 
         <div class="achivementsCard">
-            <div id="achievementsBlock">
-                <h2>Deep Memorial Public School, Uttar Pradesh</h2>
-                <br>
-                <h4>(2008-2022)</h4>
-                <ul id="listItems">
-                    <li>Secured 92.2% in class 10th</li>
-                    <li>Secured 83.8% in class 12th</li>
-                </ul>
-            </div>
-        </div>
-
-        <div class="achivementsCard">
-            <div id="achievementsBlock">
+            <div class="achievementsBlock">
                 <h2>Deep Memorial Public School, Uttar Pradesh</h2>
                 <br>
                 <h4>(2021-2022)</h4>
-                <ul id="listItems">
+                <ul class="listItems">
                     <li>School Captain</li>
                 </ul>
             </div>
@@ -253,14 +229,14 @@
         <br>
         <div id="contact-links">
             <div id="contact-links-left">
-                <a href="#">Shivankur Sharma</a>
-                <a href="https://validator.w3.org/" target="_blank">validator</a>
+                <a href="https://github.com/shivankursharma018/" target="_blank">Shivankur Sharma</a>
+                <a href="https://validator.w3.org/" target="_blank">Validator</a>
             </div>
             
             <div id="contact-links-right">
-                <a href="https://www.github.com/shivankursharma018" target="_blank">github</a>
-                <a href="https://www.linkedin.com/in/shivankursharma018/" target="_blank">linkedIn</a>
-                <a href="mailto:shivankursharma018@gmail.com">g-mail</a>
+                <a href="https://www.github.com/shivankursharma018" target="_blank">Github</a>
+                <a href="https://www.linkedin.com/in/shivankursharma018/" target="_blank">LinkedIn</a>
+                <a href="mailto:shivankursharma018@gmail.com">E-Mail</a>
 
             </div>
         </div>
@@ -272,4 +248,5 @@
         </a>
     </footer>
 </body>
+<script src="app.js"></script>
 </html>
