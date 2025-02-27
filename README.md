@@ -16,5 +16,5 @@ Welcome to my personal portfolio repository! This repository contains different 
 | ------------------- | ----------------------------------------- | ---------------------------------------------------------------------- | -------------------------------------------------------- |
 | **version-1**       | First version of my portfolio             | [Code](https://github.com/shivankursharma018/portfolio/tree/main/v1)   | [Demo](https://shivankursharma018.github.io/v1/)         |
 | **version-2**       | Updated portfolio with modern design      | [Code](https://github.com/shivankursharma018/portfolio/tree/main/v2)   | [Demo](https://shivankursharma018.github.io/v2/)         |
-| **Blog**            | Directory containing my blog posts        | [Code](https://github.com/shivankursharma018/portfolio/tree/main/blog) | [Blog](https://shivankur018.hashnode.dev/)       |
+| **Blog**            | Directory containing my blog posts        | - | [Blog](https://shivankur018.hashnode.dev/)       |
 
