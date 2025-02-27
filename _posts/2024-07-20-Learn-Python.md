@@ -1,3 +1,10 @@
+---
+layout: post
+title: "Introduction to Python: Your Gateway to Programming Excellence"
+date: 2024-07-20
+categories: blog
+---
+
 # Introduction to Python: Your Gateway to Programming Excellence
 
 ![Python Programming](https://images.unsplash.com/photo-1596577877537-d9ca17c4090c?q=80&w=2940&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D align="left")

@@ -1,3 +1,10 @@
+---
+layout: post
+title: "Photo Editing Tool in Python"
+date: 2024-07-21
+categories: blog
+---
+
 # Creating a Simple Photo Editor with Python: A Blend of Technology and Creativity
 
 ![Photo Editing](https://plus.unsplash.com/premium_photo-1720428645118-fb52682450c1?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mjl8fHBob3RvJTIwZWRpdGluZyUyMHNvZnR3YXJlfGVufDB8fDB8fHww)
