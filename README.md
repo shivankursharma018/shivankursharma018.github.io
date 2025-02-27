@@ -8,7 +8,7 @@ Welcome to my personal portfolio repository! This repository contains different 
 
 - **/v1**: The first version of my portfolio. Built with a focus on simplicity and foundational web design.
 - **/v2**: The second version of my portfolio. Improved with modern web technologies and design principles.
-- **/blog**: A directory containing posts related to my web development journey, tutorials, and other blog entries.
+- **/_posts**: A directory containing posts related to my web development journey, tutorials, and other blog entries.
 
 ## Repository Overview
 
@@ -16,5 +16,5 @@ Welcome to my personal portfolio repository! This repository contains different 
 | ------------------- | ----------------------------------------- | ---------------------------------------------------------------------- | -------------------------------------------------------- |
 | **version-1**       | First version of my portfolio             | [Code](https://github.com/shivankursharma018/portfolio/tree/main/v1)   | [Demo](https://shivankursharma018.github.io/v1/)         |
 | **version-2**       | Updated portfolio with modern design      | [Code](https://github.com/shivankursharma018/portfolio/tree/main/v2)   | [Demo](https://shivankursharma018.github.io/v2/)         |
-| **Blog**            | Directory containing my blog posts        | [Code](https://github.com/shivankursharma018/portfolio/tree/main/blog) | [Blog](https://shivankursharma018.github.io/blog/)       |
+| **Blog**            | Directory containing my blog posts        | [Code](https://github.com/shivankursharma018/portfolio/tree/main/blog) | [Blog](https://shivankur018.hashnode.dev/)       |
 
