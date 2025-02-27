@@ -7,7 +7,7 @@ categories: blog
 
 # Creating a Simple Photo Editor with Python: A Blend of Technology and Creativity
 
-[Photo Editing](https://plus.unsplash.com/premium_photo-1720428645118-fb52682450c1?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mjl8fHBob3RvJTIwZWRpdGluZyUyMHNvZnR3YXJlfGVufDB8fDB8fHww)
+![Photo Editing](https://plus.unsplash.com/premium_photo-1720428645118-fb52682450c1?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mjl8fHBob3RvJTIwZWRpdGluZyUyMHNvZnR3YXJlfGVufDB8fDB8fHww)
 
 In an era dominated by visual communication, the need for user-friendly and accessible photo editing tools has never been more pronounced. In this project, I created a straightforward yet effective photo editor using Python. The main objective was to design an intuitive graphical user interface (GUI) that allows users to perform basic photo editing tasks. The technologies employed in this project include Seaborn, Tkinter, and Pickle.
 
@@ -15,8 +15,8 @@ In an era dominated by visual communication, the need for user-friendly and acce
 
 This Photo Editor is designed to provide a seamless experience through a well-crafted graphical user interface built using the Tkinter library. Leveraging the capabilities of the PILLOW library, the editor facilitates fundamental image adjustments, filters, and the addition of text overlays. Whether users are looking to fine-tune personal photographs or add creative elements to their visuals, this project offers a user-friendly environment for achieving desired results.
 
-[Editing Interface](https://images.unsplash.com/photo-1721541823607-a590e624954d?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwcm9maWxlLXBhZ2V8MXx8fGVufDB8fHx8fA%3D%3D)
-[Editing Interface](https://images.unsplash.com/photo-1721541823617-4f78b0c09747?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwcm9maWxlLXBhZ2V8Mnx8fGVufDB8fHx8fA%3D%3D)
+![Editing Interface](https://images.unsplash.com/photo-1721541823607-a590e624954d?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwcm9maWxlLXBhZ2V8MXx8fGVufDB8fHx8fA%3D%3D)
+![Editing Interface](https://images.unsplash.com/photo-1721541823617-4f78b0c09747?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwcm9maWxlLXBhZ2V8Mnx8fGVufDB8fHx8fA%3D%3D)
 
 ## Key Features
 
@@ -50,7 +50,7 @@ To run this Photo Editor, you need to have Python installed on your system along
 
 As we delve into the intricacies of image processing and graphical interface design, this project not only serves as a practical tool but also as an exploration into the fusion of technology and creativity. By leveraging libraries like Tkinter and PILLOW, we can create powerful applications that are both functional and user-friendly.
 
-[Creativity](https://plus.unsplash.com/premium_photo-1720647165724-2951cc2880c0?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mjl8fHBob3RvJTIwZWRpdG9yJTIwc29mdHdhcmV8ZW58MHx8MHx8fDA%3D)
+![Creativity](https://plus.unsplash.com/premium_photo-1720647165724-2951cc2880c0?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mjl8fHBob3RvJTIwZWRpdG9yJTIwc29mdHdhcmV8ZW58MHx8MHx8fDA%3D)
 
 ## Conclusion
 
