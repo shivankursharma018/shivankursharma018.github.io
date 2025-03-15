@@ -16,38 +16,34 @@ npm install --save-dev webpack webpack-cli webpack-dev-server
 ```
 
 3. create project structure
-```bash
-webpack-project/
-├── src/
-│   └── index.js
-├── dist/
-|   └── main.js
-├── webpack.config.js
-└── package.json
-```
+   webpack-project/
+   ├── src/
+   │   └── index.js
+   ├── dist/
+   │   └── main.js
+   ├── webpack.config.js
+   └── package.json
 
-4. configure webpack
-```javascript
-// webpack.config.js
-const path = require('path');
+4. configure webpack.config.js
+   ```
+   const path = require('path');
 
-module.exports = {
-  entry: './src/index.js', // Entry point of the app
-  output: {
-    filename: 'main.js', // Change this to 'main.js'
-    path: path.resolve(__dirname, 'dist'), // Output directory
-  },
-  mode: 'development',
-  devServer: {
-    static: {
-      directory: path.join(__dirname, 'dist'), // Serve files from the 'dist' folder
-    },
-    open: true,  // Automatically open the browser
-    port: 8080,  // You can specify the port you want
-  },
-};
-
-```
+   module.exports = {
+     entry: './src/index.js', // Entry point of the app
+     output: {
+       filename: 'main.js', // Output file name
+       path: path.resolve(__dirname, 'dist'), // Output directory
+     },
+     mode: 'development',
+     devServer: {
+       static: {
+         directory: path.join(__dirname, 'dist'), // Serve files from the 'dist' folder
+       },
+       open: true,  // Automatically open the browser
+       port: 8080,
+     },
+   };
+   ```
 
 5. run server
 ```bash
