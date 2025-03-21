@@ -2,17 +2,26 @@
 const path = require('path');
 
 module.exports = {
-  entry: './src/index.js', // Entry point of the app
+  entry: './src/index.js',
   output: {
-    filename: 'main.js', // Change this to 'main.js'
-    path: path.resolve(__dirname, 'dist'), // Output directory
+    filename: 'main.js',
+    path: path.resolve(__dirname, 'dist'),
+    publicPath: '/', // Ensure correct asset resolution
   },
   mode: 'development',
+  module: {
+    rules: [
+      {
+        test: /\.(png|jpe?g|gif|svg)$/i,
+        type: 'asset/resource', // Webpack will handle images
+      },
+    ],
+  },
   devServer: {
     static: {
-      directory: path.join(__dirname, 'dist'), // Serve files from the 'dist' folder
+      directory: path.join(__dirname, 'dist'),
     },
-    open: true,  // Automatically open the browser
-    port: 8080,  // You can specify the port you want
+    open: true,
+    port: 8080,
   },
 };
