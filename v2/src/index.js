@@ -5,23 +5,26 @@ import { skills } from "./skills";
 document.addEventListener('DOMContentLoaded', () => {
     home();
 
-    const homeBtn = document.getElementById('home-btn');
-    const projectsBtn = document.getElementById('projects-btn');
-    const skillsBtn = document.getElementById('skills-btn');
+    const buttons = document.querySelectorAll('button');
     const contentDiv = document.getElementById('content');
 
-    homeBtn.addEventListener('click', () => {
-        contentDiv.innerHTML = "";
-        home();
-    });
+    function resetBorders(activeButton) {
+        buttons.forEach(btn => btn.style.border = "");
+        activeButton.style.border = "2px dashed white";
+        activeButton.style.transition = "border 0.3s ease";
+    }
 
-    projectsBtn.addEventListener('click', () => {
-        contentDiv.innerHTML = "";
-        projects();
-    });
+    const sections = {
+        'home-btn': home,
+        'projects-btn': projects,
+        'skills-btn': skills
+    };
 
-    skillsBtn.addEventListener('click', () => {
-        contentDiv.innerHTML = "";
-        skills();
+    Object.keys(sections).forEach(id => {
+        document.getElementById(id).addEventListener('click', () => {
+            contentDiv.innerHTML = "";
+            resetBorders(document.getElementById(id));
+            sections[id]();
+        });
     });
 });
