@@ -1,13 +1,12 @@
 import Img from './assets/images/profile.jpg';
-
-const contentDiv = document.getElementById('content');
+import backgroundImg from './assets/images/background.jpg';
 
 function imgElement() {
     const imgElement = document.createElement('img');
     imgElement.classList.add('profile-img');
     imgElement.src = Img;
     imgElement.alt = "Profile Picture";
-    // return imgElement;
+    return imgElement;
 }
 
 function titleName() {
@@ -56,12 +55,21 @@ function resumeBtn() {
     return resumeBtn;
 }
 
+const contentDiv = document.getElementById('content');
+
+document.addEventListener('DOMContentLoaded', () => {
+    document.body.style.background = `url(${backgroundImg}) no-repeat center center/cover`;
+});
+
 export function home() {
-    contentDiv.append(
-        imgElement(), 
-        titleName(), 
-        description(), 
-        contacts(), 
+    const fragment = document.createDocumentFragment(); // Creates an off-screen container
+    fragment.append(
+        imgElement(),
+        titleName(),
+        description(),
+        contacts(),
         resumeBtn()
     );
+    contentDiv.innerHTML = "";
+    contentDiv.appendChild(fragment); // appends everything at once
 }

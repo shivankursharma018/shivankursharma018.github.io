@@ -1,6 +1,6 @@
 import { home } from "./home";
 import { projects } from "./projects";
-import { skills } from "./skills";
+import { experience } from "./experience";
 
 document.addEventListener('DOMContentLoaded', () => {
     home();
@@ -16,8 +16,8 @@ document.addEventListener('DOMContentLoaded', () => {
 
     const sections = {
         'home-btn': home,
-        'projects-btn': projects,
-        'skills-btn': skills
+        'experience-btn': experience,
+        'projects-btn': projects
     };
 
     Object.keys(sections).forEach(id => {
