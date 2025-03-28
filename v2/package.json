@@ -8,8 +8,7 @@
     "predeploy": "npm run build",
     "build": "webpack",
     "dev": "webpack serve",
-    "deploy": "git --work-tree dist add dist -f && git --work-tree dist commit -m 'Deploy to gh-pages' && git push origin `git subtree split --prefix dist main`:gh-pages --force",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "deploy": "git subtree push --prefix dist origin gh-pages"
   },
   "keywords": [],
   "author": "",
