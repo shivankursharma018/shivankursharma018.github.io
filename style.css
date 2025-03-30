@@ -4,7 +4,11 @@ body {
     padding: 0;
     font-family: 'Roboto', sans-serif;
     color: white;
+<<<<<<< HEAD
     height: 100vh;
+=======
+    height: 100%;
+>>>>>>> 6d34a487a674e40f9770a3ffd91cf7f7ecf596b6
     overflow-y: auto;
 }
 
@@ -55,7 +59,10 @@ nav button:hover {
     flex-direction: column;
     align-items: center;
     justify-content: center;
+<<<<<<< HEAD
     gap: 1em;
+=======
+>>>>>>> 6d34a487a674e40f9770a3ffd91cf7f7ecf596b6
     text-align: center;
     backdrop-filter: blur(3px);
 }
@@ -150,7 +157,13 @@ button {
 /* Experience Page */
 #experience-page {
     display: flex;
+<<<<<<< HEAD
     flex-direction: column;
+=======
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+>>>>>>> 6d34a487a674e40f9770a3ffd91cf7f7ecf596b6
     gap: 20px;
     width: 100%;
 }

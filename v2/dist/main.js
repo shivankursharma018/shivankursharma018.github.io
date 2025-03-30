@@ -26,7 +26,7 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpac
   \******************************************/
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
-eval("module.exports = __webpack_require__.p + \"3421fcaf704e87f05b5d.jpg\";\n\n//# sourceURL=webpack://v2/./src/assets/images/background.jpg?");
+eval("module.exports = __webpack_require__.p + \"images/background.jpg\";\n\n//# sourceURL=webpack://v2/./src/assets/images/background.jpg?");
 
 /***/ }),
 
@@ -36,7 +36,7 @@ eval("module.exports = __webpack_require__.p + \"3421fcaf704e87f05b5d.jpg\";\n\n
   \******************************************************/
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
-eval("module.exports = __webpack_require__.p + \"1e58b04505f6e859b919.jpg\";\n\n//# sourceURL=webpack://v2/./src/assets/images/experience/cipherbytes.jpg?");
+eval("module.exports = __webpack_require__.p + \"images/cipherbytes.jpg\";\n\n//# sourceURL=webpack://v2/./src/assets/images/experience/cipherbytes.jpg?");
 
 /***/ }),
 
@@ -46,7 +46,7 @@ eval("module.exports = __webpack_require__.p + \"1e58b04505f6e859b919.jpg\";\n\n
   \***************************************/
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
-eval("module.exports = __webpack_require__.p + \"f4e082b938e305dcd903.jpg\";\n\n//# sourceURL=webpack://v2/./src/assets/images/profile.jpg?");
+eval("module.exports = __webpack_require__.p + \"images/profile.jpg\";\n\n//# sourceURL=webpack://v2/./src/assets/images/profile.jpg?");
 
 /***/ }),
 
@@ -56,7 +56,7 @@ eval("module.exports = __webpack_require__.p + \"f4e082b938e305dcd903.jpg\";\n\n
   \**********************************************/
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
-eval("module.exports = __webpack_require__.p + \"8801814e14803f361ff1.jpg\";\n\n//# sourceURL=webpack://v2/./src/assets/images/projects/CS50x.jpg?");
+eval("module.exports = __webpack_require__.p + \"images/CS50x.jpg\";\n\n//# sourceURL=webpack://v2/./src/assets/images/projects/CS50x.jpg?");
 
 /***/ }),
 
@@ -66,7 +66,7 @@ eval("module.exports = __webpack_require__.p + \"8801814e14803f361ff1.jpg\";\n\n
   \*****************************************************/
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
-eval("module.exports = __webpack_require__.p + \"0778799c0521fc4fefa4.jpg\";\n\n//# sourceURL=webpack://v2/./src/assets/images/projects/amazon-clone.jpg?");
+eval("module.exports = __webpack_require__.p + \"images/amazon-clone.jpg\";\n\n//# sourceURL=webpack://v2/./src/assets/images/projects/amazon-clone.jpg?");
 
 /***/ }),
 
@@ -76,7 +76,7 @@ eval("module.exports = __webpack_require__.p + \"0778799c0521fc4fefa4.jpg\";\n\n
   \************************************************/
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
-eval("module.exports = __webpack_require__.p + \"2805e8ad1003a23a282a.jpg\";\n\n//# sourceURL=webpack://v2/./src/assets/images/projects/arduino.jpg?");
+eval("module.exports = __webpack_require__.p + \"images/arduino.jpg\";\n\n//# sourceURL=webpack://v2/./src/assets/images/projects/arduino.jpg?");
 
 /***/ }),
 
@@ -86,7 +86,7 @@ eval("module.exports = __webpack_require__.p + \"2805e8ad1003a23a282a.jpg\";\n\n
   \******************************************************/
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
-eval("module.exports = __webpack_require__.p + \"c9b5c2b152b847dedd69.jpg\";\n\n//# sourceURL=webpack://v2/./src/assets/images/projects/builds30figma.jpg?");
+eval("module.exports = __webpack_require__.p + \"images/builds30figma.jpg\";\n\n//# sourceURL=webpack://v2/./src/assets/images/projects/builds30figma.jpg?");
 
 /***/ }),
 
@@ -96,7 +96,7 @@ eval("module.exports = __webpack_require__.p + \"c9b5c2b152b847dedd69.jpg\";\n\n
   \****************************************************/
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
-eval("module.exports = __webpack_require__.p + \"19b1a592b8c171d604c9.jpg\";\n\n//# sourceURL=webpack://v2/./src/assets/images/projects/collab-draw.jpg?");
+eval("module.exports = __webpack_require__.p + \"images/collab-draw.jpg\";\n\n//# sourceURL=webpack://v2/./src/assets/images/projects/collab-draw.jpg?");
 
 /***/ }),
 
@@ -106,7 +106,7 @@ eval("module.exports = __webpack_require__.p + \"19b1a592b8c171d604c9.jpg\";\n\n
   \**************************************************/
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
-eval("module.exports = __webpack_require__.p + \"eba06795933d189605ad.jpg\";\n\n//# sourceURL=webpack://v2/./src/assets/images/projects/plan-solo.jpg?");
+eval("module.exports = __webpack_require__.p + \"images/plan-solo.jpg\";\n\n//# sourceURL=webpack://v2/./src/assets/images/projects/plan-solo.jpg?");
 
 /***/ }),
 
@@ -116,7 +116,7 @@ eval("module.exports = __webpack_require__.p + \"eba06795933d189605ad.jpg\";\n\n
   \*******************************************************/
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
-eval("module.exports = __webpack_require__.p + \"c9b5805d8ad4a5da3195.jpg\";\n\n//# sourceURL=webpack://v2/./src/assets/images/projects/potato-project.jpg?");
+eval("module.exports = __webpack_require__.p + \"images/potato-project.jpg\";\n\n//# sourceURL=webpack://v2/./src/assets/images/projects/potato-project.jpg?");
 
 /***/ }),
 
@@ -126,7 +126,7 @@ eval("module.exports = __webpack_require__.p + \"c9b5805d8ad4a5da3195.jpg\";\n\n
   \********************************************************/
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
-eval("module.exports = __webpack_require__.p + \"799b11e9b98a8ba527c6.jpg\";\n\n//# sourceURL=webpack://v2/./src/assets/images/projects/py-photo-editor.jpg?");
+eval("module.exports = __webpack_require__.p + \"images/py-photo-editor.jpg\";\n\n//# sourceURL=webpack://v2/./src/assets/images/projects/py-photo-editor.jpg?");
 
 /***/ }),
 
@@ -136,7 +136,7 @@ eval("module.exports = __webpack_require__.p + \"799b11e9b98a8ba527c6.jpg\";\n\n
   \********************************************/
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
-eval("module.exports = __webpack_require__.p + \"7d90575c6d120f013480.jpg\";\n\n//# sourceURL=webpack://v2/./src/assets/images/projects/top.jpg?");
+eval("module.exports = __webpack_require__.p + \"images/top.jpg\";\n\n//# sourceURL=webpack://v2/./src/assets/images/projects/top.jpg?");
 
 /***/ }),
 
@@ -237,7 +237,7 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpac
 /******/ 	
 /******/ 	/* webpack/runtime/publicPath */
 /******/ 	(() => {
-/******/ 		__webpack_require__.p = "/";
+/******/ 		__webpack_require__.p = "./";
 /******/ 	})();
 /******/ 	
 /************************************************************************/

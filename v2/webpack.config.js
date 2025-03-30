@@ -6,14 +6,17 @@ module.exports = {
   output: {
     filename: 'main.js',
     path: path.resolve(__dirname, 'dist'),
-    publicPath: '/', // Ensure correct asset resolution
+    publicPath: './', // Changed from '/' to './'
   },
-  mode: 'development',
+  mode: process.env.NODE_ENV === 'production' ? 'production' : 'development',
   module: {
     rules: [
       {
         test: /\.(png|jpe?g|gif|svg)$/i,
-        type: 'asset/resource', // Webpack will handle images
+        type: 'asset/resource',
+        generator: {
+          filename: 'images/[name][ext]', // Organizes images in dist folder
+        },
       },
     ],
   },
