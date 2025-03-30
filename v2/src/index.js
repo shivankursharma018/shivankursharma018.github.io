@@ -1,11 +1,8 @@
-import { home } from "./home.js";
-import { projects } from "./projects.js";
-import { experience } from "./experience.js";
-import { about } from "./about.js";
-import backgroundImg from './assets/images/background.jpg';
+import { home } from "./home";
+import { projects } from "./projects";
+import { experience } from "./experience";
 
 document.addEventListener('DOMContentLoaded', () => {
-    document.body.style.background = `url(${backgroundImg}) no-repeat center center/cover`;
     home();
 
     const buttons = document.querySelectorAll('button');
@@ -20,8 +17,7 @@ document.addEventListener('DOMContentLoaded', () => {
     const sections = {
         'home-btn': home,
         'experience-btn': experience,
-        'projects-btn': projects,
-        'about-btn': about
+        'projects-btn': projects
     };
 
     Object.keys(sections).forEach(id => {

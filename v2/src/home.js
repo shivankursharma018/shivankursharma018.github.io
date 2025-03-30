@@ -1,4 +1,45 @@
 import Img from './assets/images/profile.jpg';
+import backgroundImg from './assets/images/background.jpg';
+
+function applyStyles() {
+    const style = document.createElement('style');
+    style.innerHTML = `
+        #content {
+            min-height: 80vh;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            gap: 20px;
+            padding: 40px;
+            text-align: center;
+            backdrop-filter: blur(8px); /* Keeps content readable */
+        }
+
+        /* White Text */
+        h1, p, a, button {
+            color: white;
+            text-decoration: none;
+        }
+
+        .profile-img {
+            width: 250px;
+            height: 200px;
+            border-radius: 25px;
+            object-fit: cover;
+        }
+
+        button {
+            background: transparent;
+            border: 2px solid white;
+            padding: 10px 20px;
+            font-size: 1rem;
+            cursor: pointer;
+            transition: all 0.3s ease;
+        }
+    `;
+    document.head.appendChild(style);
+}
 
 function imgElement() {
     const imgElement = document.createElement('img');
@@ -55,6 +96,12 @@ function resumeBtn() {
 }
 
 const contentDiv = document.getElementById('content');
+
+document.addEventListener('DOMContentLoaded', () => {
+    document.body.style.background = `url(${backgroundImg}) no-repeat center center/cover`;
+    applyStyles();
+});
+
 export function home() {
     const fragment = document.createDocumentFragment(); // Creates an off-screen container
     fragment.append(
