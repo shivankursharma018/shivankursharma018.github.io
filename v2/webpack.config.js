@@ -8,7 +8,7 @@ module.exports = {
     path: path.resolve(__dirname, 'dist'),
     publicPath: '/', // Ensure correct asset resolution
   },
-  mode: 'development',
+  mode: 'production',
   module: {
     rules: [
       {
