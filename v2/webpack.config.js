@@ -1,4 +1,3 @@
-// webpack.config.js
 const path = require('path');
 
 module.exports = {
@@ -6,14 +5,14 @@ module.exports = {
   output: {
     filename: 'main.js',
     path: path.resolve(__dirname, 'dist'),
-    publicPath: '/', // Ensure correct asset resolution
+    publicPath: '/v2/', // Replace 'v2' with your repository name
   },
   mode: 'production',
   module: {
     rules: [
       {
         test: /\.(png|jpe?g|gif|svg)$/i,
-        type: 'asset/resource', // Webpack will handle images
+        type: 'asset/resource', // Handles image assets
       },
     ],
   },
