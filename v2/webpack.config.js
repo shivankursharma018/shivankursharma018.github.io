@@ -5,7 +5,7 @@ module.exports = {
   output: {
     filename: 'main.js',
     path: path.resolve(__dirname, 'dist'),
-    publicPath: '//', // Replace 'v2' with your repository name
+    publicPath: '/v2/', // Replace 'v2' with your repository name
   },
   mode: 'production',
   module: {

@@ -1,3 +1,5 @@
+import cipherbytesLogo from './assets/images/exp-cipherbytes.jpg';
+
 // export function experience() {
 //     const contentDiv = document.getElementById('content');
 
@@ -8,37 +10,30 @@
 //     contentDiv.appendChild(headBar);
 // }
 function createExperienceCard({ logo, title, company, dates, description, liveLink, codeLink }) {
-    // Create the experience card container
     const experienceCard = document.createElement('div');
     experienceCard.classList.add('experience-card');
     
-    // Create and append the company logo (optional)
     const experienceLogo = document.createElement('img');
     experienceLogo.src = logo;
     experienceLogo.alt = `${company} Logo`;
     experienceLogo.classList.add('experience-logo');
     
-    // Create and append the job title
     const experienceTitle = document.createElement('h3');
     experienceTitle.classList.add('experience-title');
     experienceTitle.textContent = title;
     
-    // Create and append the company name
     const experienceCompany = document.createElement('p');
     experienceCompany.classList.add('experience-company');
     experienceCompany.textContent = company;
     
-    // Create and append the date range (e.g., Start and End dates)
     const experienceDates = document.createElement('p');
     experienceDates.classList.add('experience-dates');
     experienceDates.textContent = dates;
     
-    // Create and append the description
     const experienceDescription = document.createElement('p');
     experienceDescription.classList.add('experience-description');
     experienceDescription.textContent = description;
     
-    // Optionally, create and append links (e.g., Company website or GitHub repo)
     const experienceLinks = document.createElement('div');
     experienceLinks.classList.add('experience-links');
     
@@ -54,9 +49,14 @@ function createExperienceCard({ logo, title, company, dates, description, liveLi
     if (liveLink) experienceLinks.appendChild(createLink(liveLink, 'View Live'));
     if (codeLink) experienceLinks.appendChild(createLink(codeLink, 'View Code'));
     
-    // Append all child elements to the experience card
-    experienceCard.append(experienceLogo, experienceTitle, experienceCompany, experienceDates, experienceDescription, experienceLinks);
-    
+    experienceCard.append(
+        experienceLogo,
+        experienceTitle, 
+        experienceCompany, 
+        experienceDates, 
+        experienceDescription, 
+        experienceLinks
+    );
     return experienceCard;
 }
 
@@ -80,32 +80,23 @@ export function experience() {
     // Example experience data (this can be dynamically fetched or passed as a parameter)
     const experienceData = [
         {
-            logo: 'path/to/logo1.jpg',
-            title: 'Software Engineer',
-            company: 'Company One',
-            dates: 'Jan 2020 - Dec 2021',
+            logo: cipherbytesLogo,
+            title: 'Intern Web Developer',
+            company: 'CipherBytes Technologies',
+            dates: 'July 2024 - August 2024',
             description: 'Developed software solutions and collaborated with cross-functional teams to deliver high-quality products.',
-            liveLink: 'https://companyone.com',
-            codeLink: 'https://github.com/companyone'
+            liveLink: 'https://shivankursharma018.github.io/CBT-CIP/',
+            codeLink: 'https://github.com/shivankursharma018/CBT-CIP/'
         },
-        {
-            logo: 'path/to/logo2.jpg',
-            title: 'Web Developer',
-            company: 'Company Two',
-            dates: 'Mar 2018 - Dec 2019',
-            description: 'Built and maintained websites, ensuring optimal performance and responsiveness.',
-            liveLink: 'https://companytwo.com',
-            codeLink: 'https://github.com/companytwo'
-        },
-        {
-            logo: 'path/to/logo3.jpg',
-            title: 'Frontend Developer',
-            company: 'Company Three',
-            dates: 'Aug 2016 - Feb 2018',
-            description: 'Focused on front-end development, including HTML, CSS, and JavaScript, to create seamless user experiences.',
-            liveLink: 'https://companythree.com',
-            codeLink: 'https://github.com/companythree'
-        }
+        // {
+        //     logo: 'path/to/logo2.jpg',
+        //     title: 'Web Developer',
+        //     company: 'Company Two',
+        //     dates: 'Mar 2018 - Dec 2019',
+        //     description: 'Built and maintained websites, ensuring optimal performance and responsiveness.',
+        //     liveLink: 'https://companytwo.com',
+        //     codeLink: 'https://github.com/companytwo'
+        // },
     ];
     
     // Create and append experience cards

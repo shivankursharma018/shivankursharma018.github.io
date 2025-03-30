@@ -1,3 +1,13 @@
+import builds30figma from './assets/images/projects-builds30figma.jpg';
+import arduino from './assets/images/projects-arduino.jpg';
+import amazonClone from './assets/images/projects-amazon-clone.jpg';
+import cs50x from './assets/images/projects-CS50x.jpg';
+import pyPhotoEditor from './assets/images/projects-py-photo-editor.jpg';
+import potatoProject from './assets/images/projects-potato-project.jpg';
+import planSolo from './assets/images/projects-plan-solo.jpg';
+import collabDraw from './assets/images/projects-collab-draw.jpg';
+import top from './assets/images/projects-top.jpg';
+
 function createProjectCard({ image, description, liveLink, codeLink }) {
     // create the project card container
     const projectCard = document.createElement('div');
@@ -51,70 +61,58 @@ export function projects() {
     
     const projectData = [
         {
-            image: 'path/to/image1.jpg',
-            description: 'This is project 1 description.',
-            liveLink: 'https://live-project1.com',
-            codeLink: 'https://github.com/project1'
+            image: planSolo,
+            description: 'Plan-Solo provides a sleek and intuitive UI for task management. Features include input fields for task description, duration, and category, as well as a dynamic task list.',
+            liveLink: 'https://plan-solo.vercel.app/',
+            codeLink: 'https://github.com/shivankursharma018/plan-solo/'
         },
         {
-            image: 'path/to/image2.jpg',
-            description: 'This is project 2 description.',
-            liveLink: 'https://live-project2.com',
-            codeLink: 'https://github.com/project2'
+            image: collabDraw,
+            description: 'The "Collab-Draw" project is a real-time, collaborative whiteboard application designed to enable users to interact and draw together on a shared virtual canvas. This project aims to address the increasing need for online collaboration tools, especially in environments such as education, professional brainstorming sessions, and creative design.',
+            liveLink: 'https://github.com/shivankursharma018/collab-draw/',
+            codeLink: 'https://github.com/shivankursharma018/collab-draw/'
         },
         {
-            image: 'path/to/image3.jpg',
-            description: 'This is project 3 description.',
-            liveLink: 'https://live-project3.com',
-            codeLink: 'https://github.com/project3'
+            image: top,
+            description: 'The Odin Project',
+            liveLink: 'https://shivankursharma018.github.io/Odin-FullStack-JS/',
+            codeLink: 'https://github.com/shivankursharma018/Odin-FullStack-JS/'
         },
         {
-            image: 'path/to/image3.jpg',
-            description: 'This is project 3 description.',
-            liveLink: 'https://live-project3.com',
-            codeLink: 'https://github.com/project3'
+            image: potatoProject,
+            description: 'Potato Disease Classification System is a project aimed at developing a deep learning model to accurately classify Late blight and Early blight diseases affecting potato crops. The system utilizes Convolutional Neural Networks (CNNs) to analyze images of potato plants and identify the presence of diseases.',
+            liveLink: 'https://github.com/shivankursharma018/Potato-Disease-Classification-System-using-Convolutional-Neural-Networks-CNN/',
+            codeLink: 'https://github.com/shivankursharma018/Potato-Disease-Classification-System-using-Convolutional-Neural-Networks-CNN/'
         },
         {
-            image: 'path/to/image3.jpg',
-            description: 'This is project 3 description.',
-            liveLink: 'https://live-project3.com',
-            codeLink: 'https://github.com/project3'
+            image: pyPhotoEditor,
+            description: 'pytthon photo editor',
+            liveLink: 'https://github.com/shivankursharma018/PillowTk-PhotoEditor/',
+            codeLink: 'https://github.com/shivankursharma018/PillowTk-PhotoEditor/'
         },
         {
-            image: 'path/to/image3.jpg',
-            description: 'This is project 3 description.',
-            liveLink: 'https://live-project3.com',
-            codeLink: 'https://github.com/project3'
+            image: builds30figma,
+            description: 'Group project, where I focused on designing the user interface for a food delivery app. Specifically, my role centered around creating the UI for the order page.',
+            liveLink: 'https://shivankursharma018.github.io/NoddyBytes/design.html/',
+            codeLink: 'https://github.com/shivankursharma018/NoddyBytes/'
         },
         {
-            image: 'path/to/image3.jpg',
-            description: 'This is project 3 description.',
-            liveLink: 'https://live-project3.com',
-            codeLink: 'https://github.com/project3'
+            image: arduino,
+            description: 'I learned to use Arduino UNO. Made projects like remote-controlled cars and sensor lights. This helped me learn about electronics and programming.',
+            liveLink: 'https://github.com/shivankursharma018/Arduino-Workshop/',
+            codeLink: 'https://github.com/shivankursharma018/Arduino-Workshop/'
         },
         {
-            image: 'path/to/image3.jpg',
-            description: 'This is project 3 description.',
-            liveLink: 'https://live-project3.com',
-            codeLink: 'https://github.com/project3'
+            image: amazonClone,
+            description: 'This is a vanilla CSS project to enhance my basics of web development. Can add more features in future. I made this project to gain basic frontend skills.',
+            liveLink: 'https://shivankursharma018.github.io/Amazon-UI-Clone/',
+            codeLink: 'https://github.com/shivankursharma018/Amazon-UI-Clone/'
         },
         {
-            image: 'path/to/image3.jpg',
-            description: 'This is project 3 description.',
-            liveLink: 'https://live-project3.com',
-            codeLink: 'https://github.com/project3'
-        },
-        {
-            image: 'path/to/image3.jpg',
-            description: 'This is project 3 description.',
-            liveLink: 'https://live-project3.com',
-            codeLink: 'https://github.com/project3'
-        },
-        {
-            image: 'path/to/image3.jpg',
-            description: 'This is project 3 description.',
-            liveLink: 'https://live-project3.com',
-            codeLink: 'https://github.com/project3'
+            image: cs50x,
+            description: 'CS50x is a free online course offered by Harvard University that provides an introduction to computer science and programming. It covers a wide range of topics, including algorithms, data structures, web development, and more.',
+            liveLink: 'https://github.com/shivankursharma018/CS50x/',
+            codeLink: 'https://github.com/shivankursharma018/CS50x/'
         }
     ];
     
