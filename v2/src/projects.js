@@ -1,12 +1,12 @@
-import builds30figma from './assets/images/projects-builds30figma.jpg';
-import arduino from './assets/images/projects-arduino.jpg';
-import amazonClone from './assets/images/projects-amazon-clone.jpg';
-import cs50x from './assets/images/projects-CS50x.jpg';
-import pyPhotoEditor from './assets/images/projects-py-photo-editor.jpg';
-import potatoProject from './assets/images/projects-potato-project.jpg';
-import planSolo from './assets/images/projects-plan-solo.jpg';
-import collabDraw from './assets/images/projects-collab-draw.jpg';
-import top from './assets/images/projects-top.jpg';
+import builds30figma from '../dist/assets/images/projects-builds30figma.jpg';
+import arduino from '../dist/assets/images/projects-arduino.jpg';
+import amazonClone from '../dist/assets/images/projects-amazon-clone.jpg';
+import cs50x from '../dist/assets/images/projects-CS50x.jpg';
+import pyPhotoEditor from '../dist/assets/images/projects-py-photo-editor.jpg';
+import potatoProject from '../dist/assets/images/projects-potato-project.jpg';
+import planSolo from '../dist/assets/images/projects-plan-solo.jpg';
+import collabDraw from '../dist/assets/images/projects-collab-draw.jpg';
+import top from '../dist/assets/images/projects-top.jpg';
 
 function createProjectCard({ image, description, liveLink, codeLink }) {
     // create the project card container

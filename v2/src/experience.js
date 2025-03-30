@@ -1,4 +1,4 @@
-import cipherbytesLogo from './assets/images/exp-cipherbytes.jpg';
+import cipherbytesLogo from '../dist/assets/images/exp-cipherbytes.jpg';
 
 // export function experience() {
 //     const contentDiv = document.getElementById('content');
