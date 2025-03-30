@@ -7,7 +7,7 @@ module.exports = {
     path: path.resolve(__dirname, 'dist'),
     publicPath: '/v2/', // Replace 'v2' with your repository name
   },
-  mode: 'development',
+  mode: 'production',
   module: {
     rules: [
       {
