@@ -5,14 +5,17 @@ module.exports = {
   output: {
     filename: 'main.js',
     path: path.resolve(__dirname, 'dist'),
-    publicPath: '/v2/', // Replace 'v2' with your repository name
+    publicPath: '', // Remove or set to empty string
   },
   mode: 'production',
   module: {
     rules: [
       {
         test: /\.(png|jpe?g|gif|svg)$/i,
-        type: 'asset/resource', // Handles image assets
+        type: 'asset/resource',
+        generator: {
+          filename: 'assets/[name][ext]', // Ensures images are placed in assets folder
+        },
       },
     ],
   },

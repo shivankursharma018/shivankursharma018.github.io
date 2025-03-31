@@ -1,4 +1,4 @@
-import Img from '../dist/assets/images/profile.jpg';
+import Img from './assets/images/profile.jpg';
 
 function imgElement() {
     const imgElement = document.createElement('img');
