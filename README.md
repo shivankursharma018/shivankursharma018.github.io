@@ -1,6 +1,6 @@
 # Hello There!
 
-#### [FOLLOW UP ON THIS PAGE](https://shivankursharma018.github.io/v1/)
+#### [FOLLOW UP ON THIS PAGE](https://shivankursharma018.github.io/v2/dist/)
 
 <hr>
 
@@ -11,8 +11,8 @@ Welcome to my collection of blog posts. Below you'll find links to each of my la
 3. [Intro to Machine Learning Course](./blogs/2025-02-28-Intro-to-Machine-Learning-Course.md)
 
 Follow for more on:
-[hashnode](https://shivankur018.hashnode.dev/)
-[x.com](https://x.com/sdotsharma018)
+- [hashnode](https://shivankur018.hashnode.dev/)
+- [x.com](https://x.com/sdotsharma018)
 
 <hr>
 
