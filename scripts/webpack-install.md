@@ -4,7 +4,6 @@
 mkdir webpack-project
 cd webpack-project
 ```
-
 - initialize node.js project
 ```bash
 npm init -y
@@ -48,6 +47,12 @@ npm install --save-dev webpack webpack-cli webpack-dev-server
 5. run server
 ```bash
 npx webpack serve
+```
+
+6. build command and deploy
+```
+npm run build
+npm run deploy
 ```
 
 This will start the Webpack Dev Server, which will:

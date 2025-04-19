@@ -1,3 +1,5 @@
+UPDATE: these are basic, use LazyVim :P
+---
 My Vim Configurations
 ```bash
 " disable vi compatibility
