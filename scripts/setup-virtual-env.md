@@ -8,19 +8,19 @@
 ---
 ## 🚀 Setup Instructions
 
-1. Navigate to Your Project Directory
+### Navigate to Your Project Directory
 ```bash
 cd
 mkdir project
 cd project
 ```
 
-2. Create a Virtual Environment
+### Create a Virtual Environment
 ```bash
 python -m venv .venv
 ```
 
-3. Activate the Virtual Environment
+### Activate the Virtual Environment
 - Do this every time you start a new terminal session to work on the project.
 - Every time you install a new package in that environment, activate the environment again.
 
@@ -35,7 +35,7 @@ Linux/macOS
 source .venv/bin/activate
 ```
 
-4. Check the Virtual Environment is Active
+### Check the Virtual Environment is Active
 
 
 Windows
@@ -48,15 +48,15 @@ Linux/macOS
 which python
 ```
 
-5. Upgrade pip
+### Upgrade pip
 ```bash
 python -m pip install --upgrade pip
 ```
 
-6. Add .gitignore
+### Add .gitignore
 - If you are using Git (you should), add a .gitignore file to exclude everything in your .venv from Git.
 
-7. Deactivate the Virtual Environment
+### Deactivate the Virtual Environment
 ```bash
 deactivate
 ```
