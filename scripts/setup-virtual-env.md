@@ -9,7 +9,6 @@
 ## 🚀 Setup Instructions
 
 1. Navigate to Your Project Directory
-<hr>
 ```bash
 cd
 mkdir project
@@ -17,7 +16,6 @@ cd project
 ```
 
 2. Create a Virtual Environment
-<hr>
 ```bash
 python -m venv .venv
 ```
@@ -38,6 +36,7 @@ source .venv/bin/activate
 ```
 
 4. Check the Virtual Environment is Active
+
 
 Windows
 ```bash
