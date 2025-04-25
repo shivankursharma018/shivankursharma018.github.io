@@ -25,19 +25,23 @@ python -m venv .venv
 - Do this every time you start a new terminal session to work on the project.
 - Every time you install a new package in that environment, activate the environment again.
 ```bash
-# windows
+windows
+```bash
 .venv\Scripts\Activate.ps1
+```
 
-# Linux/macOS
+Linux/macOS
+```bash
 source .venv/bin/activate
 ```
 
 4. Check the Virtual Environment is Active
 ```bash
-# windows
+windows
 Get-Command python
 
-# Linux/macOS
+Linux/macOS
+```bash
 which python
 ```
 
