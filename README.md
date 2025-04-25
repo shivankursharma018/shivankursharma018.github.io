@@ -20,3 +20,4 @@ Below are the scripts/configs/installation guides:
 
 - [vim configuration](./scripts/vim-config.md)
 - [webpack install](./scripts/webpack-install.md)
+- [setup venv](./scripts/setup-virtual-env.md)
