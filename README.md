@@ -1,6 +1,4 @@
-# Hello There!
-
-#### [FOLLOW UP ON THIS PAGE](https://shivankursharma018.github.io/v2/dist/)
+#### HELLO THERE! [Follow On Here](https://shivankursharma018.github.io/v2/dist/)
 
 <hr>
 
@@ -9,15 +7,8 @@ Welcome to my collection of blog posts. Below you'll find links to each of my la
 1. [Learn Python](./blogs/2024-07-20-Learn-Python.md)
 2. [Photo Editing Tool in Python](./blogs/2024-07-21-Photo-Editing-Tool-in-Python.md)
 3. [Intro to Machine Learning Course](./blogs/2025-02-28-Intro-to-Machine-Learning-Course.md)
+4. [Never Lose Track of Python Dependencies Again](./blogs/2025-04-27-Never-Lose-Track-Of-Python-Dependencies.md)
 
 Follow for more on:
 - [hashnode](https://shivankur018.hashnode.dev/)
 - [x.com](https://x.com/sdotsharma018)
-
-<hr>
-
-Below are the scripts/configs/installation guides:
-
-- [vim configuration](./scripts/vim-config.md)
-- [webpack install](./scripts/webpack-install.md)
-- [setup venv](./scripts/setup-virtual-env.md)
