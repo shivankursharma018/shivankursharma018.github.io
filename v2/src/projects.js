@@ -86,34 +86,28 @@ export function projects() {
         },
         {
             image: pyPhotoEditor,
-            description: 'pytthon photo editor',
+            description: 'python photo editor',
             liveLink: 'https://github.com/shivankursharma018/PillowTk-PhotoEditor/',
             codeLink: 'https://github.com/shivankursharma018/PillowTk-PhotoEditor/'
         },
-        {
-            image: builds30figma,
-            description: 'Group project, where I focused on designing the user interface for a food delivery app. Specifically, my role centered around creating the UI for the order page.',
-            liveLink: 'https://shivankursharma018.github.io/NoddyBytes/design.html/',
-            codeLink: 'https://github.com/shivankursharma018/NoddyBytes/'
-        },
+        // {
+        //     image: builds30figma,
+        //     description: 'Group project, where I focused on designing the user interface for a food delivery app. Specifically, my role centered around creating the UI for the order page.',
+        //     liveLink: 'https://shivankursharma018.github.io/NoddyBytes/design.html/',
+        //     codeLink: 'https://github.com/shivankursharma018/NoddyBytes/'
+        // },
         {
             image: arduino,
             description: 'I learned to use Arduino UNO. Made projects like remote-controlled cars and sensor lights. This helped me learn about electronics and programming.',
             liveLink: 'https://github.com/shivankursharma018/Arduino-Workshop/',
             codeLink: 'https://github.com/shivankursharma018/Arduino-Workshop/'
-        },
-        {
-            image: amazonClone,
-            description: 'This is a vanilla CSS project to enhance my basics of web development. Can add more features in future. I made this project to gain basic frontend skills.',
-            liveLink: 'https://shivankursharma018.github.io/Amazon-UI-Clone/',
-            codeLink: 'https://github.com/shivankursharma018/Amazon-UI-Clone/'
-        },
-        {
-            image: cs50x,
-            description: 'CS50x is a free online course offered by Harvard University that provides an introduction to computer science and programming. It covers a wide range of topics, including algorithms, data structures, web development, and more.',
-            liveLink: 'https://github.com/shivankursharma018/CS50x/',
-            codeLink: 'https://github.com/shivankursharma018/CS50x/'
         }
+        // {
+        //     image: cs50x,
+        //     description: 'CS50x is a free online course offered by Harvard University that provides an introduction to computer science and programming. It covers a wide range of topics, including algorithms, data structures, web development, and more.',
+        //     liveLink: 'https://github.com/shivankursharma018/CS50x/',
+        //     codeLink: 'https://github.com/shivankursharma018/CS50x/'
+        // }
     ];
     
     projectData.forEach(project => {

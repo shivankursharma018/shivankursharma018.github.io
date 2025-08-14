@@ -50,6 +50,8 @@ function contacts() {
 
 function resumeBtn() {
     const resumeBtn = document.createElement('button');
+    resumeBtn.href = "https://drive.google.com/file/d/13msTXP4ZUNYFcoY8Fr-arhO9KlBAYxtz/view?usp=sharing";
+    resumeBtn.target = "_blank";
     resumeBtn.innerHTML = "Resume";
     return resumeBtn;
 }
