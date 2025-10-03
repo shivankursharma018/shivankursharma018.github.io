@@ -1,8 +1,8 @@
-import { home } from "./home.js";
-import { projects } from "./projects.js";
-import { experience } from "./experience.js";
-import { about } from "./about.js";
-import backgroundImg from './assets/images/background.jpg';
+import { home } from "./components/home.js";
+import { projects } from "./components/projects.js";
+import { experience } from "./components/experience.js";
+import { about } from "./components/about.js";
+import backgroundImg from '/background.jpg';
 
 document.addEventListener('DOMContentLoaded', () => {
     document.body.style.background = `url(${backgroundImg}) no-repeat center center/cover`;
