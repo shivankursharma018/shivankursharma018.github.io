@@ -1,9 +1,9 @@
-import Img from '/profile.jpg';
+// import Img from '/profile.jpg';
 
 function imgElement() {
     const imgElement = document.createElement('img');
     imgElement.classList.add('profile-img');
-    imgElement.src = Img;
+    imgElement.src = `${import.meta.env.BASE_URL}images/profile.jpg`;
     imgElement.alt = "Profile Picture";
     return imgElement;
 }
@@ -58,7 +58,7 @@ function resumeBtn() {
     resumeBtn.innerHTML = "RESUME";
 
     resumeBtn.addEventListener('click', () => {
-        window.open("public/resume_shivankur.pdf", "_blank");
+        window.open("https://drive.google.com/file/d/1KAd7qCdW7BYvBluHnhxzLH40T2PIH_F3/view?usp=sharing", "_blank");
     });
 
     return resumeBtn;

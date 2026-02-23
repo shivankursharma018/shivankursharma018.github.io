@@ -1,7 +1,5 @@
-import { defineConfig } from 'vite';
-
-// https://vitejs.dev/config/
+import { defineConfig } from "vite";
 
 export default defineConfig({
-  base: '/', // Replace with your repository name
-})
+  base: "/shivankursharma018.github.io/",
+});

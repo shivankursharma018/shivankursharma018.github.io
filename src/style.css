@@ -198,12 +198,19 @@ nav button:hover {
   flex: 1;
 }
 
-.experience-logo {
+.experience-logo-wrap {
   width: 80px;
   height: 80px;
-  object-fit: contain;
   border-radius: 6px;
+  overflow: hidden;
   flex-shrink: 0;
+}
+
+.experience-logo {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  display: block;
 }
 
 .experience-text {
@@ -241,6 +248,21 @@ nav button:hover {
   font-style: italic;
 }
 
+.experience-code-link {
+  margin-top: 0.4em;
+  font-size: 0.85rem;
+  color: var(--text-secondary);
+  text-decoration: none;
+  width: fit-content;
+  border-bottom: 1px dashed var(--text-secondary);
+  transition: var(--transition);
+}
+
+.experience-code-link:hover {
+  text-decoration: none;
+  color: #fff;
+  border-bottom-color: #fff;
+}
 
 
 
@@ -372,3 +394,43 @@ body {
         width: 90%;
     }
 }
+
+
+
+
+
+/* hide native scrollbar */
+html, body {
+  scrollbar-width: none;
+}
+html::-webkit-scrollbar,
+body::-webkit-scrollbar {
+  display: none;
+}
+
+/* right side progress bar */
+#scroll-indicator {
+  position: fixed;
+  right: 0;
+  top: 0;
+  bottom: 0;
+
+  width: 7px;
+
+  background: transparent;
+  border: none;
+  z-index: 9999;
+}
+
+#scroll-indicator-fill {
+  position: absolute;
+  top: 0;        /* ⬅ fill from top */
+  left: 0;
+
+  width: 100%;
+  height: 0%;
+
+  background: white;
+
+}
+
