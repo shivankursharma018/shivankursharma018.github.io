@@ -1,82 +1,64 @@
-// import Img from '/profile.jpg';
+import about from './about.js'
+import experience from './experience.js'
 
-function imgElement() {
-    const imgElement = document.createElement('img');
-    imgElement.classList.add('profile-img');
-    imgElement.src = `${import.meta.env.BASE_URL}images/profile.jpg`;
-    imgElement.alt = "Profile Picture";
-    return imgElement;
+const content = document.getElementById("content")
+
+function hero() {
+
+  const container = document.createElement("section")
+  container.className = "hero"
+
+  const imgHolder = document.createElement("div")
+  imgHolder.className = "img-holder"
+
+  const img = document.createElement("img")
+  img.src = `${import.meta.env.BASE_URL}images/profile.jpg`
+  img.className = "profile-img"
+
+  imgHolder.appendChild(img)
+
+  ///////////////
+  const heroText = document.createElement("div")
+  heroText.className = "hero-text"
+
+  const name = document.createElement("h3")
+  name.textContent = "Shivankur Sharma"
+
+  const contacts = document.createElement("div")
+  contacts.className = "contacts"
+
+  const socials = [
+    ["Github","https://github.com/shivankursharma018"],
+    ["LinkedIn","https://www.linkedin.com/in/shivankursharma018"],
+    ["X","https://x.com/sdotsharma018"]
+  ]
+
+  socials.forEach(([name,url])=>{
+    const a = document.createElement("a")
+    a.href = url
+    a.textContent = name
+    a.target = "_blank"
+    contacts.appendChild(a)
+  })
+
+  heroText.append(name, contacts)
+
+  container.append(imgHolder, heroText)
+  return container
 }
 
-function titleName() {
-    const titleName = document.createElement('h1');
-    titleName.innerHTML = "Shivankur Sharma";
-    return titleName;
-}
+export function home(){
 
-function description() {
-    const description = document.createElement('p');
-    description.innerHTML = "I am a full stack developer";
-    return description;
-}
+  content.innerHTML = ""
 
-function contacts() {
+  const fragment = document.createDocumentFragment()
 
-    function contactsBtn(btnName) {
-        const contactsBtn = document.createElement('button');
-        contactsBtn.appendChild(btnName);
-        return contactsBtn;
-    }
+  fragment.append(
+    hero(),
+    about(),
+    experience(),
+    // footer()
+  )
 
-    const contacts = document.createElement('div');
-    const github = document.createElement('a');
-    github.href = "https://github.com/shivankursharma018/";
-    github.target = "_blank";
-    github.innerHTML = "GITHUB";
-
-    const linkedin = document.createElement('a');
-    linkedin.href = "https://www.linkedin.com/in/shivankursharma018/";
-    linkedin.target = "_blank";
-    linkedin.innerHTML = "LINKEDIN";
-
-    const twitter = document.createElement('a');
-    twitter.href = "https://x.com/sdotsharma018";
-    twitter.target = "_blank";
-    twitter.innerHTML = "X";
-
-    const hashnode = document.createElement('a');
-    hashnode.href = "https://hashnode.com/@shivankur/";
-    hashnode.target = "_blank";
-    hashnode.innerHTML = "HASHNODE";
-
-    contacts.append(contactsBtn(github), contactsBtn(twitter), contactsBtn(linkedin), contactsBtn(hashnode));
-    return contacts;
-}
-
-function resumeBtn() {
-    const resumeBtn = document.createElement('button');
-    resumeBtn.innerHTML = "RESUME";
-
-    resumeBtn.addEventListener('click', () => {
-        window.open("https://drive.google.com/file/d/1KAd7qCdW7BYvBluHnhxzLH40T2PIH_F3/view?usp=sharing", "_blank");
-    });
-
-    return resumeBtn;
-}
-
-const contentDiv = document.getElementById('content');
-export function home() {
-    // creates an off-screen container
-    const fragment = document.createDocumentFragment();
-    fragment.append(
-        imgElement(),
-        titleName(),
-        description(),
-        contacts(),
-        resumeBtn()
-    );
-
-    // append everything at once
-    contentDiv.innerHTML = "";
-    contentDiv.appendChild(fragment);
+  content.appendChild(fragment)
 }

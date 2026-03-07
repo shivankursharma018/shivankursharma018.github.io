@@ -1,53 +1,40 @@
-import { home } from "./components/home.js";
-import { projects } from "./components/projects.js";
-import { experience } from "./components/experience.js";
-import { about } from "./components/about.js";
-// import backgroundImg from '/background.jpg';
+import { home } from './components/home.js'
+import { projects } from './components/projects.js'
+import footer from './components/footer.js'
 
-const fill = document.getElementById("scroll-indicator-fill");
+const homeBtn = document.getElementById("home-btn")
+const projectsBtn = document.getElementById("projects-btn")
+const themeBtn = document.getElementById("theme-toggle")
 
-function updateScrollIndicator() {
-  const scrollTop = window.scrollY;
-  const max =
-    document.documentElement.scrollHeight - window.innerHeight;
+// Radial Theme Toggle Logic
+themeBtn.addEventListener("click", (e) => {
+  const x = e.clientX;
+  const y = e.clientY;
+  
+  // Set coordinates for CSS animation
+  document.documentElement.style.setProperty('--x', `${x}px`);
+  document.documentElement.style.setProperty('--y', `${y}px`);
 
-  const progress = max > 0 ? (scrollTop / max) * 100 : 0;
+  // Fallback for browsers that don't support the API
+  if (!document.startViewTransition) {
+    toggleTheme();
+    return;
+  }
 
-  fill.style.height = progress + "%";
+  document.startViewTransition(() => toggleTheme());
+});
+
+function toggleTheme() {
+  const isDark = document.documentElement.getAttribute('data-theme') === 'dark';
+  document.documentElement.setAttribute('data-theme', isDark ? 'light' : 'dark');
 }
 
-window.addEventListener("scroll", updateScrollIndicator);
-window.addEventListener("resize", updateScrollIndicator);
+// Navigation Logic
+homeBtn.addEventListener("click", () => home())
+projectsBtn.addEventListener("click", () => projects())
 
-updateScrollIndicator();
+home()
 
-
-document.addEventListener("DOMContentLoaded", () => {
-    const bgUrl = `${import.meta.env.BASE_URL}images/background.jpg`;
-    document.body.style.background = `url(${bgUrl}) no-repeat center center / cover`;
-    home();
-
-    const buttons = document.querySelectorAll('button');
-    const contentDiv = document.getElementById('content');
-
-    function resetBorders(activeButton) {
-        buttons.forEach(btn => btn.style.border = "");
-        activeButton.style.border = "2px dashed white";
-        activeButton.style.transition = "border 0.3s ease";
-    }
-
-    const sections = {
-        'home-btn': home,
-        'experience-btn': experience,
-        'projects-btn': projects,
-        'about-btn': about
-    };
-
-    Object.keys(sections).forEach(id => {
-        document.getElementById(id).addEventListener('click', () => {
-            contentDiv.innerHTML = "";
-            resetBorders(document.getElementById(id));
-            sections[id]();
-        });
-    });
-});
+// Mount footer
+const footerContainer = document.getElementById("footer")
+footerContainer.appendChild(footer())
