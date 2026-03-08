@@ -3,7 +3,14 @@ import { projects } from './components/projects.js'
 import footer from './components/footer.js'
 
 const homeBtn = document.getElementById("home-btn")
+
 const projectsBtn = document.getElementById("projects-btn")
+projectsBtn.addEventListener("click", () => {
+  const content = document.getElementById("content")
+  content.innerHTML = ""
+  content.appendChild(projects())
+})
+
 const themeBtn = document.getElementById("theme-toggle")
 
 // Radial Theme Toggle Logic
