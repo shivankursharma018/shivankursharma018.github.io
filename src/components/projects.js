@@ -1,6 +1,7 @@
 export const projectsData = [
   {
     name: "RSS Parser",
+    tools: ["Node.js", "Express", "RSS/XML"],
     image: "rss-parser.png",
     description: 'A Node.js/Express backend service that fetches, bypasses CORS, and converts raw RSS/XML feeds into clean, frontend-ready JSON.',
     live: 'https://rss-parser-plum.vercel.app/',
@@ -8,6 +9,7 @@ export const projectsData = [
   },
   {
     name: "Collab-Draw",
+    tools: ["Node.js", "Express", "Socket.IO", "Canvas API"],
     image: "collab-draw.jpg",
     description: 'A real-time, collaborative whiteboard application designed to enable users to interact and draw together on a shared virtual canvas.',
     live: 'https://collab-draw-7yr3.onrender.com/',
@@ -15,6 +17,7 @@ export const projectsData = [
   },
   {
     name: "Plan-Solo",
+    tools: ["React", "Vite", "Local Storage"],
     image: "plan-solo.jpg",
     description: 'Plan-Solo provides a sleek and intuitive UI for task management. Features include input fields for task description, duration, and category, as well as a dynamic task list.',
     live: 'https://plan-solo.vercel.app/',
@@ -22,13 +25,15 @@ export const projectsData = [
   },
   {
     name: "The Odin Project",
+    tools: ["JavaScript", "Node.js", "Express", "MongoDB"],
     image: "top.jpg",
-    description: 'The Odin Project',
+    description: 'Completed the Full Stack JavaScript curriculum from The Odin Project, building multiple real-world projects while learning modern web development with JavaScript, Node.js, Express, and databases.',
     live: 'https://shivankursharma018.github.io/Odin-FullStack-JS/',
     code: 'https://github.com/shivankursharma018/Odin-FullStack-JS/'
   },
   {
     name: "Potato Disease Classification System using CNNs",
+    tools: ["Python", "TensorFlow", "Keras"],
     image: "potato-plant.jpg",
     description: 'Deep learning project aimed at accurate classification of Late blight and Early blight diseases affecting potato crops. The system utilizes CNNs to identify the presence of diseases.',
     live: 'https://potato-disease-classification-system.onrender.com/',
@@ -36,6 +41,7 @@ export const projectsData = [
   },
   {
     name: "NoddyBytes UI Design",
+    tools: ["Figma"],
     image: "builds30figma.jpg",
     description: 'Group project, where I focused on designing the user interface for a food delivery app. Specifically, my role centered around creating the UI for the order page.',
     live: 'https://shivankursharma018.github.io/NoddyBytes/design.html',
@@ -43,6 +49,7 @@ export const projectsData = [
   },
   {
     name: "Arduino Projects",
+    tools: ["Arduino IDE", "C++"],
     image: "arduino.jpg",
     description: 'Learned to use Arduino UNO. Made projects like remote-controlled cars and sensor lights. This helped me learn about electronics and programming.',
     live: 'https://github.com/shivankursharma018/Arduino-Workshop/',
@@ -72,6 +79,9 @@ export function projects(){
     const name = document.createElement("h3")
     name.textContent = project.name
 
+    const tools = document.createElement("span")
+    tools.textContent = project.tools ? `${project.tools.join(` ${String.fromCharCode(183)} `)}` : ""
+
     const desc = document.createElement("p")
     desc.textContent = project.description
 
@@ -89,7 +99,7 @@ export function projects(){
     code.target = "_blank"
 
     links.append(live, code)
-    card.append(img, name, desc, links)
+    card.append(img, name, tools, desc, links)
     grid.appendChild(card)
   })
 

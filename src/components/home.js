@@ -19,16 +19,15 @@ function hero() {
   const heroText = document.createElement("div")
   heroText.className = "hero-text"
 
-  const name = document.createElement("h3")
+  const name = document.createElement("h2")
   name.textContent = "Shivankur Sharma"
 
-  const contacts = document.createElement("div")
+  const contacts = document.createElement("a")
   contacts.className = "contacts"
 
   const socials = [
-    ["Github","https://github.com/shivankursharma018"],
-    ["LinkedIn","https://www.linkedin.com/in/shivankursharma018"],
-    ["X","https://x.com/sdotsharma018"]
+    [`Product focused developer - Github`,"https://github.com/shivankursharma018"],
+    [`Sharing what i learn on X`,"https://x.com/sdotsharma018"]
   ]
 
   socials.forEach(([name,url])=>{
@@ -73,6 +72,9 @@ function topProjects() {
     const name = document.createElement("h3")
     name.textContent = project.name
 
+    const tools = document.createElement("span")
+    tools.textContent = project.tools ? `${project.tools.join(` ${String.fromCharCode(183)} `)}` : ""
+
     const desc = document.createElement("p")
     desc.textContent = project.description
 
@@ -92,7 +94,7 @@ function topProjects() {
     links.append(live, code)
 
 
-    card.append(img, name, desc, links)
+    card.append(img, name, tools, desc, links)
     grid.appendChild(card)
   })
 

@@ -11,29 +11,29 @@ export default function footer() {
 
     const linksData = [
         {
-        site: "Github",
-        url: "https://github.com/shivankursharma018",
-        userName: "@shivankursharma018 ↗"
+            site: "Github",
+            url: "https://github.com/shivankursharma018",
+            userName: "@shivankursharma018 ↗"
         },
         {
-        site: "e-mail",
-        url: "mailto:shivankursharma018@gmail.com",
-        userName: "@shivankur sharma ↗"
+            site: "E-Mail",
+            url: "mailto:shivankursharma018@gmail.com",
+            userName: "@shivankur sharma ↗"
         },
         {
-        site: "X",
-        url: "https://x.com/sdotsharma018",
-        userName: "@sdotsharma018 ↗"
+            site: "Resume",
+            url: "https://drive.google.com/file/d/1KAd7qCdW7BYvBluHnhxzLH40T2PIH_F3/view",
+            userName: "drive link ↗"
         },
         {
-        site: "LinkedIn",
-        url: "https://www.linkedin.com/in/shivankursharma018",
-        userName: "@Shivankur Sharma ↗"
+            site: "LinkedIn",
+            url: "https://www.linkedin.com/in/shivankursharma018",
+            userName: "@Shivankur Sharma ↗"
         },
         {
-        site: "Hashnode",
-        url: "https://hashnode.com/@shivankur/",
-        userName: "@shivankur ↗"
+            site: "Hashnode",
+            url: "https://hashnode.com/@shivankur/",
+            userName: "@shivankur ↗"
         }
     ]
 
