@@ -1,6 +1,6 @@
 const experienceData = [
   {
-      logo: `${import.meta.env.BASE_URL}images/experience/infySpringboard.png`,
+      logo: "images/experience/infySpringboard.png",
       title: 'AIML Intern',
       company: 'Infosys Springboard',
       dates: 'Feb - Mar 2026',
@@ -9,7 +9,7 @@ const experienceData = [
       codeLink: 'https://github.com/shivankursharma018/paper-iq'
   },
   {
-      logo: `${import.meta.env.BASE_URL}images/experience/celebalTechLogo.jpg`,
+      logo: "images/experience/celebalTechLogo.jpg",
       title: 'Data Engineering Intern',
       company: 'Celebal Technologies',
       dates: 'Jun - Aug 2025',
@@ -18,7 +18,7 @@ const experienceData = [
       codeLink: 'https://github.com/shivankursharma018/ADF-Data-Ingestion-Pipeline'
   },
   {
-      logo: `${import.meta.env.BASE_URL}images/experience/cipherbytes.jpg`,
+      logo: "images/experience/cipherbytes.jpg",
       title: 'Intern Web Developer',
       company: 'CipherBytes Technologies',
       dates: 'Jul - Aug 2024',
@@ -53,7 +53,7 @@ export default function experience(){
         title.textContent = exp.title
 
         const logo = document.createElement("img")
-        logo.src = exp.logo
+        logo.src = `${import.meta.env.BASE_URL}${exp.logo}`
 
         const company = document.createElement("div")
         company.className = "experience-company"
